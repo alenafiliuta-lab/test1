@@ -1,0 +1,22 @@
+[{
+  "_id": "Good",
+  "count": 23070
+},
+{
+  "_id": "Nice",
+  "count": 18676
+},
+{
+  "_id": {
+    "$numberDouble": "NaN"
+  },
+  "count": 14564
+},
+{
+  "_id": "Nice app",
+  "count": 9504
+},
+{
+  "_id": "Good app",
+  "count": 7112
+}]

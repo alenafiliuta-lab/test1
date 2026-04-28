@@ -1,0 +1,15 @@
+{"timestamp":"2026-03-30T10:20:33.390275Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 46687. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-30T10:20:36.078335Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-30T10:20:36.104243Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/read_file.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-30T10:20:36.726266Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-30T10:20:36.731163Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-30T10:20:36.732620Z","level":"info","event":"Current task name:wait_for_file","logger":"task.stdout"}
+{"timestamp":"2026-03-30T10:20:36.733993Z","level":"info","event":"Dag name:file_processing_dag","logger":"task.stdout"}
+{"timestamp":"2026-03-30T10:20:36.832859Z","level":"info","event":"Poking for file /opt/airflow/data/tiktok_google_play_reviews.csv","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor","filename":"filesystem.py","lineno":108}
+{"timestamp":"2026-03-30T10:20:36.857266Z","level":"info","event":"Found File /opt/airflow/data/tiktok_google_play_reviews.csv last modified: 20260330101559","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor","filename":"filesystem.py","lineno":112}
+{"timestamp":"2026-03-30T10:20:36.857848Z","level":"info","event":"Success criteria met. Exiting.","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor","filename":"sensor.py","lineno":250}
+{"timestamp":"2026-03-30T10:20:36.858393Z","level":"info","event":"Poking for file /opt/airflow/data/tiktok_google_play_reviews.csv","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor","filename":"filesystem.py","lineno":108}
+{"timestamp":"2026-03-30T10:20:36.877451Z","level":"info","event":"Found File /opt/airflow/data/tiktok_google_play_reviews.csv last modified: 20260330101559","logger":"airflow.task.operators.airflow.providers.standard.sensors.filesystem.FileSensor","filename":"filesystem.py","lineno":112}
+{"timestamp":"2026-03-30T10:20:36.990686Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-30T10:20:36.992468Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-30T10:20:36.994244Z","level":"info","event":"Task operator:<Task(FileSensor): wait_for_file>","logger":"task.stdout"}

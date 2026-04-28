@@ -1,0 +1,17 @@
+{"timestamp":"2026-03-30T09:21:46.231014Z","level":"info","event":"Stats instance was created in PID 7 but accessed in PID 46046. Re-initializing.","logger":"airflow.stats","filename":"stats.py","lineno":57}
+{"timestamp":"2026-03-30T09:21:48.847354Z","level":"info","event":"DAG bundles loaded: dags-folder, example_dags","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager","filename":"manager.py","lineno":179}
+{"timestamp":"2026-03-30T09:21:48.866107Z","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/read_file.py","logger":"airflow.models.dagbag.BundleDagBag","filename":"dagbag.py","lineno":593}
+{"timestamp":"2026-03-30T09:21:49.080472Z","level":"info","event":"Файл найден и содержит данные. Начинаем обработку...","logger":"task.stdout"}
+{"timestamp":"2026-03-30T09:21:49.198060Z","level":"info","event":"Task instance is in running state","logger":"task.stdout"}
+{"timestamp":"2026-03-30T09:21:49.200304Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.QUEUED","logger":"task.stdout"}
+{"timestamp":"2026-03-30T09:21:49.201442Z","level":"info","event":"Current task name:check_file_status","logger":"task.stdout"}
+{"timestamp":"2026-03-30T09:21:49.203934Z","level":"info","event":"Dag name:file_processing_dag","logger":"task.stdout"}
+{"timestamp":"2026-03-30T09:21:49.225184Z","level":"info","event":"Done. Returned value was: process_data","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator","filename":"python.py","lineno":230}
+{"timestamp":"2026-03-30T09:21:49.225961Z","level":"info","event":"Branch into process_data","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator","filename":"branch.py","lineno":44}
+{"timestamp":"2026-03-30T09:21:49.226444Z","level":"info","event":"Expanding task group process_data into []","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator","filename":"branch.py","lineno":72}
+{"timestamp":"2026-03-30T09:21:49.235641Z","level":"info","event":"Following branch set()","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator","filename":"skipmixin.py","lineno":146}
+{"timestamp":"2026-03-30T09:21:49.238685Z","level":"info","event":"Skipping tasks [('skip_task', -1)]","logger":"airflow.task.operators.airflow.providers.standard.decorators.branch_python._BranchPythonDecoratedOperator","filename":"skipmixin.py","lineno":185}
+{"timestamp":"2026-03-30T09:21:49.423009Z","level":"info","event":"Skipping downstream tasks.","logger":"task","filename":"task_runner.py","lineno":1127}
+{"timestamp":"2026-03-30T09:21:49.706436Z","level":"info","event":"Task instance in success state","logger":"task.stdout"}
+{"timestamp":"2026-03-30T09:21:49.716850Z","level":"info","event":" Previous state of the Task instance: TaskInstanceState.RUNNING","logger":"task.stdout"}
+{"timestamp":"2026-03-30T09:21:49.718516Z","level":"info","event":"Task operator:<Task(_BranchPythonDecoratedOperator): check_file_status>","logger":"task.stdout"}

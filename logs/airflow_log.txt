@@ -1,0 +1,9 @@
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
+Файл /opt/airflow/data/tiktok_google_play_reviews.csv пуст. Обработка не требуется.
